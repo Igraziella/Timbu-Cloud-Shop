@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className="flex">
-        <img className='absolute w-full h-full object-cover'
+    <div className="flex relative">
+        <img className='w-full h-full object-cover'
         src='/hero-image.png'
         alt='woman holding a beauty product'
         />
-        <div className='m-4 px-5 py-5 relative z-0 w-1/3 border-0 rounded bg-red-300'>
+        <div className='m-4 px-5 py-5 absolute right-2 bottom-4 z-0 w-1/3 border-0 rounded bg-red-300'>
         <div className='flex flex-col items-center text-center gap-8'>
           <div className='font-bold text-white text-2xl'>
             Unveil Your Natural Glow <br /> with Velte Beauty

@@ -31,8 +31,8 @@ const Product = () => {
             })
           }
         </div>
-        <div className="inline-flex text-sky-500 bg-white border border-sky-500 py-2 px-8 focus:outline-none text-lg">
-            <button>Show More</button>
+        <div className="flex mt-4 justify-center text-sky-500 bg-white focus:outline-none text-lg">
+            <button className='border border-sky-500 w-48 py-3 text-base flex justify-center'>Show More</button>
         </div>
       </div>
   )
