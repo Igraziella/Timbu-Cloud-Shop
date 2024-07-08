@@ -1,36 +1,37 @@
-import React from "react";
+import React from "react"
+import { Link } from "react-router-dom"
+import { SlBasket,  SlHeart, SlMagnifier,  } from "react-icons/sl";
 
  const Navbar = () => {
     
     return (
-    <header className="bg-sky-500 text-white md:sticky top-0 w">
-      <div className="container mx-auto flex flex-wrap p-2 md:flex-row items-center flex-row justify-between">
-        <div className="title-font font-bold mb-4 ml-5 md:mb-0 flex-col">
-          <img src="velte-logo.png" alt="" />
-          <a href="about" className="text-white">
+    <header className="bg-sky-500 text-white md:sticky top-0 z-10">
+      <div className="container mx-auto flex flex-wrap md:flex-row items-center flex-row justify-between">
+        <div className="font-bold text-3xl gap-1.5 ml-2 md:mb-0 flex flex-row items-center">
+          <img src="velte-logo.png" alt="logo" />
+          <h1 className="leading-relaxed">
             Velte Beauty
-          </a>
+          </h1>
         </div>
-        <nav className="font-semibold md:mr-auto md:ml-auto md:py-1 md:pl-4 hidden md:flex flex-wrap items-center justify-center text-base">
-          <a href="#home" className="mr-12">
-            Home
-          </a>
-          <a href="#shop" className=" mr-12">
-            Shop
-          </a>
-          <a href="#about" className="mr-12">
-            About
-          </a>
-          <a href="#contact" className="mr-12">
-            Contact
-          </a>
+
+        <nav className="font-normal md:mr-auto md:ml-auto md:py-1 md:pl-4 hidden md:flex flex-wrap items-center justify-center text-base">
+          <Link to="/" className="mr-12 focus:font-bold active:font-bold">Home</Link>
+          
+          <Link to="/shop" className="mr-12 focus:font-bold active:font-bold"> Shop</Link>
+
+          <Link to="/about" className="mr-12 focus:font-bold active:font-bold"> About</Link>
+
+          <Link to="/contact" className="mr-12 focus:font-bold active:font-bold">Contact</Link>
         </nav>
-        <a
-          href="#contact"
-          className="items-center bg-yellow-800 border-0 py-1 px-3 rounded-lg focus:outline-none hover:bg-white hover:text-yellow-500 mt-3 md:mt:0 mb-3 mr-2 hidden md:flex"
-        >
-          Let's Meet
-        </a>
+        
+        <div className="flex space-x-8 p-12">
+          <SlMagnifier />
+          <SlHeart />
+          <Link to="/cart" className="">
+            <SlBasket />
+          </Link>
+        </div>
+      
       </div>
     </header>
     );

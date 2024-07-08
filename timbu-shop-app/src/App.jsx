@@ -1,23 +1,26 @@
-import React from "react";
-import "tailwindcss/tailwind.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Collection from "./components/Collection";
-import Product from "./components/Product";
-import Featproducts from "./components/Featproducts";
-import Testimonials from "./components/Testimonials";
-import Footer from "./components/Footer";
+import React from "react"
+import "tailwindcss/tailwind.css"
+import Home from "./pages/Home"
+import Shop from "./pages/Shop"
+import Checkout from "./pages/Checkout"
+import Cart from "./pages/Cart"
+import Contact from "./pages/Contact"
+import { Routes, Route } from "react-router-dom"
 
-export default function App() {
+const App = () => {
   return (
-    <main className="text-blue-900 bg-white body-font">
-      <Navbar />
-      <Home />
-      <Collection />
-      <Product />
-      <Featproducts />
-      <Testimonials />
-      <Footer />
-    </main>
+    <div className="text-blue-900 bg-white body-font">
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    
+    </div>
   );
 }
+
+export default App

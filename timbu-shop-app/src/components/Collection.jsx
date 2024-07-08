@@ -2,9 +2,9 @@ import React from 'react'
 
 const Collection = () => {
   return (
-    <section id="about">
+    <section>
       <div className="container mx-auto flex px-20 py-20 md:flex-row text-sky-900">
-        <div className="lg:flex-grow md:w-1/ lg:pr-24 md:pr-16 flex flex-col md:items-left mb-16 md:mb-0 items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-left mb-16 md:mb-0 items-center">
           <h1 className="font-extrabold text-4xl">Browse Our Collection</h1>
           <p className="mb-0 leading-relaxed font-bold text-xs">
             Discover the perfect products for your beauty routine
