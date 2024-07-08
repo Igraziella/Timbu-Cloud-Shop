@@ -5,6 +5,7 @@ import Shop from "./pages/Shop"
 import Checkout from "./pages/Checkout"
 import Cart from "./pages/Cart"
 import Contact from "./pages/Contact"
+import MiniShop from "./pages/MiniShop"
 import { Routes, Route } from "react-router-dom"
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/minishop" element={<MiniShop />} />
+
       </Routes>
     
     </div>

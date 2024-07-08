@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import { shopItems } from "../utils/data";
 import { Link } from "react-router-dom";
 
-const Shop = () => {
+const MiniShop = () => {
   return (
     <>
     <Navbar />
@@ -57,13 +57,13 @@ const Shop = () => {
         </div>
 
         <div className="flex justify-center space-x-3 mb-8"> 
-        <div className="text-white active:bg-sky-500 bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
+        <div className="text-white bg-gray-300 hover:bg-sky-300 border-0 py-3 px-6 focus:outline-none rounded">
+          <Link to='/shop'>
             <button>1</button>
+          </Link>
         </div>
-        <div className="text-sky-900 bg-gray-300 hover:bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
-            <Link to='/minishop'>
-              <button>2</button>
-            </Link>
+        <div className="text-bg-800 bg-sky-500 hover:bg-gray-300 border-0 py-3 px-6 focus:outline-none rounded">
+            <button>2</button>
         </div>
         </div> 
         <div className="p-10 bg-yellow-50 text-white">
@@ -75,4 +75,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default MiniShop
