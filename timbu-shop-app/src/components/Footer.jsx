@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="lg:grid grid-cols-4 gap-10 bg-sky-950  text-white py-10 px-16">
+    <div className="lg:grid grid-cols-4 gap-10 bg-[#2C3E50]  text-white py-10 px-16">
 			<div>
 				<h1 className="font-bold text-2xl">Velte Beauty</h1>
 

@@ -5,7 +5,7 @@ import { SlBasket,  SlHeart, SlMagnifier,  } from "react-icons/sl";
  const Navbar = () => {
     
     return (
-    <header className="bg-sky-500 text-white md:sticky top-0 z-10">
+    <header className="bg-[#3498DB] text-white md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap md:flex-row items-center flex-row justify-between">
         <div className="font-bold text-3xl gap-1.5 ml-2 md:mb-0 flex flex-row items-center">
           <img src="velte-logo.png" alt="logo" />
@@ -27,7 +27,7 @@ import { SlBasket,  SlHeart, SlMagnifier,  } from "react-icons/sl";
         <div className="flex space-x-8 p-12">
           <SlMagnifier />
           <SlHeart />
-          <Link to="/cart" className="">
+          <Link to="/cart">
             <SlBasket />
           </Link>
         </div>

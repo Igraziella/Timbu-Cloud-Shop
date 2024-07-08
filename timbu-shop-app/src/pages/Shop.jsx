@@ -12,7 +12,7 @@ const Shop = () => {
         <img src="/shop-main-img.png" alt="cusmetic products" />
     </div>
 
-    <div className="p-5 bg-sky-950 text-white">
+    <div className="p-5 bg-[#2C3E50] text-white">
         <div>
             <p>Filter</p>
             <hr />
@@ -20,7 +20,7 @@ const Shop = () => {
         </div>
         <div>
             <p>Show</p>
-            <button className="text-sky-950 bg-white border-0 py-3 px-3 focus:outline-none">
+            <button className="text-[#2C3E50] bg-white border-0 py-3 px-3 focus:outline-none">
                 16
             </button>
         </div>
@@ -37,7 +37,7 @@ const Shop = () => {
             shopItems.map((data) => {
               const { id, img, title, subtitle, price } = data
               return (
-                <div key={id} className="md:grid gap-5 rounded-md shadow-md border bg-gray-200">
+                <div key={id} className="md:grid gap-5 rounded-md shadow-md border bg-[#ECF0F1]">
                   <div className='flex flex-col'>
                   <div>
                     <img src={img} className="w-full h-full" />
@@ -60,13 +60,13 @@ const Shop = () => {
         <div className="text-white active:bg-sky-500 bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
             <button>1</button>
         </div>
-        <div className="text-sky-900 bg-gray-300 hover:bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
+        <div className="text-sky-900 bg-[#D9D9D9] hover:bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
             <Link to='/minishop'>
               <button>2</button>
             </Link>
         </div>
         </div> 
-        <div className="p-10 bg-yellow-50 text-white">
+        <div className="p-10 bg-[#FAF3EA] text-white">
         </div>
 
     <Footer />
