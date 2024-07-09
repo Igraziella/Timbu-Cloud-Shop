@@ -29,14 +29,16 @@ const Featproducts = () => {
         />
         </div>
         
-        <div className="md:w-[30%] lg:w-full border-2 py-8 px-5">
+        <div className="md:w-[30%] lg:w-full border-2 py-8 px-5 ">
 				  <div className="lg:relative">
-					  <p className="text-2xl font-bold pb-1 text-[#3498DB]">Velte Ayurvedic Hair Butter:</p>
-            <p className='text-base font-semibold text-[#3498DB]'>Natural Ingredients, Powerful Results</p>
-            <p className="text-base text-[#2C3E50]"> Introducing our Ayurvedic Hair Butter, a luxurious blend designed to transform your hair care routine with the ancient wisdom of Ayurveda. Crafted with a unique combination of natural ingredients, this hair butter promises to provide deep conditioning, strength, and luster to your hair.</p>
-					<div className="flex lg:w-1/2 ">
-          <p className="text-[#3498DB] font-bold">Key Ingredients</p>
-          <ul>
+					  <p className="text-left text-2xl font-bold pb-1 text-[#3498DB]">Velte Ayurvedic Hair Butter:</p>
+            <p className='text-left text-base font-semibold text-[#3498DB]'>Natural Ingredients, Powerful Results</p>
+            <p className="text-left text-base text-[#2C3E50]"> Introducing our Ayurvedic Hair Butter, a luxurious blend designed to transform your hair care routine with the ancient wisdom of Ayurveda. Crafted with a unique combination of natural ingredients, this hair butter promises to provide deep conditioning, strength, and luster to your hair.</p>
+					
+          <div className='flex justify-center'>
+          <div className="lg:w-1/2 ">
+          <p className="text-[#3498DB] font-bold text-left">Key Ingredients</p>
+          <ul className='list-disc text-left'>
             <li>Shea Butter</li>
             <li>Fenugreek Seed</li>
             <li>Rosemary Leaves</li>
@@ -49,7 +51,7 @@ const Featproducts = () => {
           </ul>
           </div>
 				</div>
-			
+			</div>
 				<p className="text-xl font-bold text-[#3498DB]">
 						FOR ALL HAIR TYPES
 				</p>

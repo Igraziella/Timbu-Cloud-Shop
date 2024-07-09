@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
-      <div className=" relative py-20 px-20">
+      <div className=" relative py-20 lg:px-20 px-10">
         <div className="text-center font-bold pb-2 pt-2 text-2xl text-[#2C3E50]">
           Our Products
         </div>
 
-        <div className="md:grid grid-cols-4 lg:gap-3 gap-y-10">
+        <div className="lg:grid grid-cols-4 lg:gap-3 space-y-4 lg:space-y-0">
           {
             prodSample.map((data) => {
               const { id, img, title, subtitle, price } = data
