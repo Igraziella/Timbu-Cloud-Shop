@@ -145,7 +145,7 @@ export const shopItems = [
         img: "/shop-img2.png",
         title: "Face Moisturizer",
         subtitle: "Face & Lip Care",
-        price: "2,500",
+        price: "₦ 2,500",
     },
     {
         id: 3,

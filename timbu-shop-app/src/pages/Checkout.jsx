@@ -5,6 +5,11 @@ const Checkout = () => {
   return (
     <>
     <Navbar />
+
+    <div>
+        <img src="/shop-main-img.png" alt="cusmetic products" />
+    </div>
+    
     <Footer />
     </>
   )

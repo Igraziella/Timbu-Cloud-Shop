@@ -46,7 +46,13 @@ const MiniShop = () => {
                   <div className="text-[#2C3E50]">
                     <h1 className="font-bold mt-2 ml-4">{title}</h1>
                     <p className='ml-4'>{subtitle}</p>
-                    <p className='ml-4 mb-5 font-bold'>{price}</p>
+                    <p className='ml-4 mb-5 font-bold'>{price}
+                      <span className='flex justify-end px-3'>
+                        <Link to="/cart">
+                          <button className='font-semibold text-white bg-[#3498DB] hover:bg-[#add2eb] active:bg-[#609eca]  border border-black shadow-sm rounded p-3 w-32 justify-center focus:outline-none'>Add to Cart</button>
+                        </Link>
+                      </span>
+                    </p>
                   </div>
                 </div>
 
@@ -66,7 +72,31 @@ const MiniShop = () => {
             <button>2</button>
         </div>
         </div> 
-        <div className="p-10 bg-[#FAF3EA] text-white">
+
+        <div className="flex flex-row justify-between p-10 bg-[#FAF3EA]">
+          <div className="flex gap-2">
+            <img src="/trophy.png" alt="" />
+            <h3 className="text-[#2C3E50]">High Quality</h3>
+            <p className="text-[#898989]">crafted from top materials</p>
+          </div>
+
+          <div className="flex">
+            <img src="/warranty.png" alt="" />
+            <h3 className="text-[#2C3E50]">Warranty Protection</h3>
+            <p className="text-[#898989]">Over 2 years</p>
+          </div>
+
+          <div className="flex">
+            <img src="/shipping.png" alt="" />
+            <h3 className="text-[#2C3E50]">Free Shipping</h3>
+            <p className="text-[#898989]">Order over ₦20,000 </p>
+          </div>
+
+          <div className="flex">
+            <img src="/customer-support.png" alt="" />
+            <h3 className="text-[#2C3E50]">24/7 Support</h3>
+            <p className="text-[#898989]">Dedicated support</p>
+          </div>
         </div>
 
     <Footer />
