@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Featproducts = () => {
   return (
-    <div className="container bg-[#FCF8F3] mx-auto flex py-10 md:flex-row">
-        <div className='flex items-center text-center px-20 space-x-3'>
+    <div className="container bg-[#FCF8F3] mx-auto lg:flex py-10 md:flex-row">
+        <div className='lg:flex space-x-4 items-center text-center lg:px-20'>
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-left md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="font-extrabold mb-8 text-2xl text-[#3A3A3A]">
             Featured Products
@@ -21,9 +21,9 @@ const Featproducts = () => {
             </div>
         </div>
 
-        <div className="flex space-x-3 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className=" *:first-letter:flex space-x-3 lg:max-w-lg md:w-1/2">
         <img
-        className="rounded"
+        className="rounded w-full"
         src="./product-3.png"
         alt="image"
         />
