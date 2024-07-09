@@ -9,12 +9,12 @@ import { SlBasket } from "react-icons/sl";
       <div className="container mx-auto flex flex-wrap md:flex-row items-center flex-row justify-between">
         <div className="font-bold text-3xl gap-1.5 ml-2 md:mb-0 flex flex-row items-center">
           <img src="velte-logo.png" alt="logo" />
-          <h1 className="leading-relaxed">
+          <h1 className="text-sm lg:text-3xl leading-relaxed">
             Velte Beauty
           </h1>
         </div>
 
-        <nav className="font-normal md:mr-auto md:ml-auto md:py-1 md:pl-4 hidden md:flex flex-wrap items-center justify-center text-base">
+        <nav className="hidden lg:block font-normal md:mr-auto md:ml-auto md:py-1 md:pl-4 md:flex flex-wrap items-center justify-center text-base">
           <Link to="/" className="mr-12 focus:font-bold active:font-bold">Home</Link>
           
           <Link to="/shop" className="mr-12 focus:font-bold active:font-bold"> Shop</Link>
