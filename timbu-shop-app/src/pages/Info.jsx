@@ -20,7 +20,7 @@ const Info = () => {
                   <li>Cart</li><SlArrowRight />
                 </Link>
                 <Link to="/cart">
-                  <li>Information</li><SlArrowRight />
+                  <li className="text-[#3498DB] font-semibold">Information</li><SlArrowRight />
                 </Link>
                 <Link to="/payment">
                   <li>Payment and Shipping</li><SlArrowRight />
@@ -68,7 +68,7 @@ const Info = () => {
 
         <div className="m-4 border p-1">
           <label htmlFor="lastname"></label>
-          <input type="text" placeholder="lastname"/>
+          <input type="text" placeholder="Last Name"/>
         </div>
 
         <div className="m-4 border p-1">
@@ -116,7 +116,7 @@ const Info = () => {
 
         <div className="flex gap-48 m-4">
           <Link to="/cart">
-            <p>Back to Cart</p>
+            <p className="text-[#3498DB]">Back to Cart</p>
           </Link>
         <div>
           <Link to="/payment">

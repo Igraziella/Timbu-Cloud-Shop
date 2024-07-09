@@ -8,6 +8,7 @@ import Cart from "./pages/Cart"
 import Contact from "./pages/Contact"
 import MiniShop from "./pages/MiniShop"
 import Payment from "./pages/Payment"
+import Success from "./pages/Success"
 import { Routes, Route } from "react-router-dom"
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/minishop" element={<MiniShop />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/success" element={<Success />} />
 
       </Routes>
     

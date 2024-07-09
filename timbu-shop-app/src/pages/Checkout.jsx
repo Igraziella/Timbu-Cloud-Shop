@@ -7,7 +7,7 @@ const Checkout = () => {
     <Navbar />
 
     <div>
-        <img src="/shop-main-img.png" alt="cusmetic products" />
+        <img src="/shop-main-img.png" alt="cosmetic products" />
     </div>
     
     <Footer />
