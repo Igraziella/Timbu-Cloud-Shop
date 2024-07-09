@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { SlBasket,  SlHeart, SlMagnifier,  } from "react-icons/sl";
+import { SlBasket } from "react-icons/sl";
 
  const Navbar = () => {
     
@@ -18,15 +18,9 @@ import { SlBasket,  SlHeart, SlMagnifier,  } from "react-icons/sl";
           <Link to="/" className="mr-12 focus:font-bold active:font-bold">Home</Link>
           
           <Link to="/shop" className="mr-12 focus:font-bold active:font-bold"> Shop</Link>
-
-          <Link to="/about" className="mr-12 focus:font-bold active:font-bold"> About</Link>
-
-          <Link to="/contact" className="mr-12 focus:font-bold active:font-bold">Contact</Link>
         </nav>
         
         <div className="flex space-x-8 p-12">
-          <SlMagnifier />
-          <SlHeart />
           <Link to="/cart">
             <SlBasket />
           </Link>

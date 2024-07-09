@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import { SlArrowRight } from "react-icons/sl";
+import { Link } from "react-router-dom";
 
 
 const Cart = () => {
@@ -17,9 +18,14 @@ const Cart = () => {
           <div className="">
             <ul className="flex gap-5 p-0">
               <li>Cart</li><SlArrowRight />
-              <li>Information</li><SlArrowRight />
-              <li>Shopping</li><SlArrowRight />
-              <li>Payment </li><SlArrowRight />
+              <Link to="/info">
+                <li>Information</li><SlArrowRight />
+              </Link>
+
+              <Link>
+                <li>Payment and Shipping </li><SlArrowRight />
+              </Link>
+
             </ul>
           </div>
       
