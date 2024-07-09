@@ -17,13 +17,13 @@ const Info = () => {
           <div>
             <ul className="flex gap-5">
                 <Link to="/cart">
-                  <li>Cart</li><SlArrowRight />
+                  <li>Cart</li>
                 </Link>
                 <Link to="/cart">
-                  <li className="text-[#3498DB] font-semibold">Information</li><SlArrowRight />
+                  <li className="text-[#3498DB] font-semibold">Information</li>
                 </Link>
                 <Link to="/payment">
-                  <li>Payment and Shipping</li><SlArrowRight />
+                  <li>Payment and Shipping</li>
               </Link>            
             </ul>
           </div>

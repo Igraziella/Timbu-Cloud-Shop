@@ -17,13 +17,13 @@ const Cart = () => {
       <div className="flex flex-col m-6">
           <div className="">
             <ul className="flex gap-5 p-0">
-              <li className="text-[#3498DB] font-semibold">Cart</li><SlArrowRight />
+              <li className="text-[#3498DB] font-semibold">Cart</li>
               <Link to="/info">
-                <li>Information</li><SlArrowRight />
+                <li>Information</li>
               </Link>
 
               <Link to="/payment">
-                <li>Payment and Shipping </li><SlArrowRight />
+                <li>Payment and Shipping </li>
               </Link>
 
             </ul>
