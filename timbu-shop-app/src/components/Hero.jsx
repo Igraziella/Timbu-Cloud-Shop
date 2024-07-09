@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           
         </div>
-        <div>
+        <div className='flex justify-center lg:justify-start'>
             <Link to='/shop'>
               <button className='lg:mt-10 mt-2 mb-2 lg:font-semibold text-xs text-white bg-[#2ECC71] hover:bg-green-400 border-0 shadow-sm rounded py-2 px-6 w-32 justify-center focus:outline-none'>BUY Now</button>
             </Link>
