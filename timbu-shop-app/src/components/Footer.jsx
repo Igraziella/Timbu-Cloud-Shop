@@ -10,8 +10,8 @@ import { PiTiktokLogo } from "react-icons/pi";
 const Footer = () => {
   return (
 	<>
-    <div className="lg:flex justify-between bg-[#2C3E50] text-white py-10 px-10">
-		<div className=''>
+    <div className="lg:flex justify-between bg-[#2C3E50] text-white py-10 px-5">
+		<div className='flex flex-row items-center mb-3'>
 			<img src="/velte-logo.png" alt="" />
 			<h1 className="font-bold">Velte Beauty</h1>
 		</div>
