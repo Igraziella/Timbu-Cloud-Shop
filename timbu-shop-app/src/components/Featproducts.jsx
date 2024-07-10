@@ -29,7 +29,7 @@ const Featproducts = () => {
         />
         </div>
         
-        <div className="md:w-[30%] lg:w-full border-2 py-8 px-5 ">
+        <div className="md:w-[30%] lg:w-full border-2 py-8 px-5 text-[#2C3E50]">
 				  <div className="lg:relative">
 					  <p className="text-left text-2xl font-bold pb-1 text-[#3498DB]">Velte Ayurvedic Hair Butter:</p>
             <p className='text-left text-base font-semibold text-[#3498DB]'>Natural Ingredients, Powerful Results</p>
@@ -37,7 +37,7 @@ const Featproducts = () => {
 					
           <div className='flex justify-center'>
           <div className="lg:w-1/2 ">
-          <p className="text-[#3498DB] font-bold text-left">Key Ingredients</p>
+          <p className="text-[#3498DB] font-bold text-left py-2">Key Ingredients</p>
           <ul className='list-disc text-left'>
             <li>Shea Butter</li>
             <li>Fenugreek Seed</li>
@@ -52,7 +52,7 @@ const Featproducts = () => {
           </div>
 				</div>
 			</div>
-				<p className="text-xl font-bold text-[#3498DB]">
+				<p className="text-xl font-bold text-[#3498DB] py-2">
 						FOR ALL HAIR TYPES
 				</p>
 			</div>

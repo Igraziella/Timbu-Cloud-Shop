@@ -26,7 +26,7 @@ const Product = () => {
                     <p className='ml-4 mb-4 font-bold'>{price} 
                       <span className='flex justify-end px-3'>
                         <Link to="/cart">
-                          <button className='font-semibold text-white bg-[#3498DB] hover:bg-[#add2eb] active:bg-[#609eca]  border border-black shadow-sm rounded p-3 w-32 justify-center focus:outline-none'>Add to Cart</button>
+                          <button className='font-semibold text-white bg-[#3498DB] hover:bg-[#add2eb] active:bg-[#609eca] border border-black shadow-sm rounded p-3 w-32 justify-center focus:outline-none'>Add to Cart</button>
                         </Link>
                       </span>
                     </p>

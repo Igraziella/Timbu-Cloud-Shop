@@ -243,6 +243,37 @@ export const shopItems = [
         img: "/shop-img16.png",
         title: "Body Lotion",
         subtitle: "Bath & Body",
-        price: "₦ 5,000.00"
+        price: "₦ 5,000.00",
+    },
+]
+
+export const recommend = [
+    {
+        id: 1,
+        img: "/product-4.png",
+        title: "Hair Conditioner",
+        subtitle: "Hair Care",
+        price: "₦ 5,000.00",
+    },
+    {
+        id: 2,
+        img: "/shop-img9.png",
+        title: "Hair Mask",
+        subtitle: "Hair Care",
+        price: "₦ 3,500.00",
+    },
+    {
+        id: 3,
+        img: "/product-3.png",
+        title: "Aryuvedic Butter",
+        subtitle: "Hair Care",
+        price: "₦ 10,000.00",
+    },
+    {
+        id: 4,
+        img: "/shop-img15.png",
+        title: "Edge Control",
+        subtitle: "Hair Care",
+        price: "₦ 7,000.00",
     }
 ]
