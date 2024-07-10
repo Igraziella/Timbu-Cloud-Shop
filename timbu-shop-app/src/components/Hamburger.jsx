@@ -6,7 +6,7 @@ const Hamburger = ({ toggleMenu, menuOpen }) => {
     <>
       <button
         onClick={toggleMenu}
-        className="md:hidden inline-flex items-center bg-[#2C3E50] border-0 py-1 px-2 rounded-lg focus:outline-none hover:bg-[#2C3E50] top-7 right-5 p-4 md:mt:0 mb-3 mr-0 absolute z-20"
+        className="md:hidden inline-flex items-center bg-[#2C3E50] border-0 py-1 px-1 rounded-lg focus:outline-none hover:bg-[#2C3E50] top-7 right-5 p-4 md:mt:0 mb-3 mr-0 absolute z-20"
       >
         <svg
           className="w-6 h-6"

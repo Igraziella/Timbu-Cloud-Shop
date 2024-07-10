@@ -14,7 +14,7 @@ const Cart = () => {
         <img src="/shop-main-img.png" alt="cosmetic products" />
       </div>
 
-      <div className="flex flex-col m-10">
+      <div className="flex flex-col lg:m-10 m-5">
           <div>
             <ul className="flex gap-5">
                 <Link to="/cart">
@@ -30,27 +30,26 @@ const Cart = () => {
           </div>
         </div>
 
-        <div className="flex lg:flex-row flex-col font-normal gap-20 px-10">
-					<div className="md:grid grid-rows gap-10 w-[70%] border bg-white rounded">
+        <div className="flex lg:flex-col flex-col font-normal gap-5 px-10">
+					<div className="md:grid grid-rows gap-10 lg:w-[70%] border bg-white rounded">
             
             <div className="m-5 space-y-4">
               <p className="text-[#3498DB] font-bold">Shopping Cart</p>
               <p className="underline">Deselect all Items</p>
             </div>
           </div>
-        </div>
+        
 
-        <div className="flex lg:flex-row flex-col font-normal gap-20 px-10">
-					<div className="md:grid grid-rows gap-10 w-[70%] border bg-white rounded">
+        {/* <div className="flex lg:flex-row flex-col font-normal gap-20 px-10 mt-5"> */}
+					<div className="lg:w-[70%] border bg-white rounded p-5">
             
             <div>
               Shopping Cart
               <p>Deselect all Items</p>
             </div>
           </div>
-          </div>
 
-				<div className="lg:w-[30%]">
+          <div className="lg:w-[30%] p-5">
           <div className="bg-white rounded p-4">
             <p className="flex justify-center font-semibold leading-8">Order Summary</p>
             <hr />
@@ -83,6 +82,12 @@ const Cart = () => {
             <br />if is not delivered</p>
         </div> 
 				</div>
+        </div>
+
+          
+          
+          {/* </div> */}
+
       </div>
 
       <p className="flex justify-center lg:text-3xl font-medium text-black py-5">Recommended Products</p>

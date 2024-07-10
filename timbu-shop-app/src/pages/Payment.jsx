@@ -7,10 +7,10 @@ const Payment = () => {
     <>
     <Navbar />
 
-      <div className="bg-[#FAF3EA]">
+      <div className="bg-[#FAF3EA] text-[#2C3E50]">
     
       <div className="flex">
-          <div className="p-10">
+          <div className="lg:p-10 p-5">
             <ul className="flex gap-5">
                 <Link to="/cart">
                   <li>Cart</li>
@@ -25,18 +25,18 @@ const Payment = () => {
           </div>
         </div>
 
-        <div className="flex lg:flex-row flex-col font-normal gap-20 px-10">
-					<div className="md:grid grid-rows-2 gap-10 w-[70%] bg-white rounded">
+        <div className="flex lg:flex-row flex-col font-normal gap-20 lg:px-10 px-5">
+					<div className="md:grid grid-rows-2 gap-10 lg:w-[70%] bg-white rounded">
             
             <div className="border">
               <form>
              
               {/* form content */}
              
-              <div className="relative m-6 p-2 border">
-                  <p className="font-bold leading-7 mb-2">Contact</p>
+              <div className="relative m-6 p-2 font-semibold leading-9 border">
+                  <p>Contact</p>
                   <hr />
-                  <p className="font-bold leading-7 mt-2">Ship to </p>
+                  <p>Ship to </p>
               </div>
 
                 <p className="text-[#2C3E50] font-bold mx-8">Shipping method</p>
@@ -60,12 +60,12 @@ const Payment = () => {
                 </div>
               </div>
 
-              <div className="relative m-6 p-2 border">
-                  <p className="leading-7 mb-2">Contact</p>
+              <div className="relative leading-9 m-6 p-2 border">
+                  <p>Contact</p>
                   <hr />
-                  <p className="leading-7 mt-2">Ship to </p>
+                  <p>Ship to </p>
                   <hr />
-                  <p className="leading-7 mt-2">Method</p>
+                  <p>Method</p>
               </div>
 
                 <p className="text-[#2C3E50] font-bold p-4">Payment</p>
@@ -106,14 +106,14 @@ const Payment = () => {
           Your order will be processed in Naira(₦)
         </div>
 
-        <div className="flex gap-48 m-4 text-[#3498DB]">
+        <div className="lg:flex gap-48 m-4 text-[#3498DB]">
           <Link to="/info">
             <p>Return To Information</p>
           </Link>
 
           <div>
           <Link to="/success">
-            <button id="submit-btn" type="button" className="border-2 border-black rounded px-8 py-2 bg-[#3498DB] text-white font-bold">
+            <button id="submit-btn" type="button" className="border-2 border-black rounded px-8 py-2 bg-[#3498DB] text-white font-bold w-full">
               Pay Now
             </button>
           </Link>

@@ -8,7 +8,7 @@ const Info = () => {
     <>
     <Navbar />
     
-    <div className="bg-[#FAF3EA]">
+    <div className="bg-[#FAF3EA] text-[#2C3E50]">
       <div>
         <img src="/shop-main-img.png" alt="cosmetic products" />
       </div>
@@ -29,8 +29,8 @@ const Info = () => {
           </div>
         </div>
 
-        <div className="flex lg:flex-row flex-col font-normal gap-20 px-10">
-					<div className="md:grid grid-rows-2 gap-10 w-[70%] border bg-white rounded">
+        <div className="flex lg:flex-row flex-col font-normal gap-20 lg:px-10 p-5">
+					<div className="md:grid grid-rows-2 gap-10 lg:w-[70%] border bg-white rounded w-full">
             
             <div className="border">
               <form>
@@ -114,13 +114,13 @@ const Info = () => {
           <input type="checkbox" /> Save this information for next time
         </div>
 
-        <div className="flex gap-48 m-4">
+        <div className="lg:flex text-left gap-48 m-4">
           <Link to="/cart">
             <p className="text-[#3498DB]">Back to Cart</p>
           </Link>
         <div>
           <Link to="/payment">
-            <button id="submit-btn" type="button" className="border rounded px-8 py-2 bg-[#3498DB] text-white font-bold">
+            <button id="submit-btn" type="button" className="border rounded px-8 py-2 bg-[#3498DB] text-white font-bold w-full">
               Continue to Shipping
             </button>
           </Link>
