@@ -24,14 +24,14 @@ const Hamburger = ({ toggleMenu, menuOpen }) => {
         </svg>
       </button>
       <div
-        className={`h-screen w-screen bg-white md:hidden fixed top-0 right-0 z-10 ${
+        className={`h-2/4 w-2/4 bg-white md:hidden fixed top-0 right-0 z-10 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-all`}
       >
-        <nav className="font-bold md:mr-auto md:ml-auto md:py-1 md:pl-4 md:border-gray-700 mt-5 flex flex-col items-center justify-center text-base">
+        <nav className="font-bold md:mr-auto md:ml-auto md:py-1 md:pl-4 md:border-[#2C3E50] mt-5 flex flex-col items-center justify-center text-base">
           <Link to="/" className="mr-12 focus:font-bold active:font-bold">Home</Link>
           
-          <Link to="/shop" className="mr-12 focus:font-bold active:font-bold"> Shop</Link>
+          <Link to="/shop" className="mr-12 focus:font-bold active:font-bold">Shop</Link>
           
         </nav>
       </div>
