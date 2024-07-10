@@ -14,8 +14,8 @@ const Shop = () => {
       </div>
 
       {/* filter section */}
-      <div className="flex justify-between p-5 bg-[#2C3E50] text-white px-10">
-        <div className="flex flew-col gap-3 font-bold">
+      <div className="lg:flex justify-between p-5 bg-[#2C3E50] text-white px-10">
+        <div className="lg:flex lg:flex-row gap-3 font-bold">
           <img src="/filter.png" alt="" /><p>Filter</p>
           <hr />
           <img src="/grid.png" alt="" />
@@ -23,23 +23,21 @@ const Shop = () => {
           <p className="font-normal text-base">Showing 1–16 of 32 results</p>
         </div>
 
-        
-          <div className="flex gap-5 font-bold text-[20px]">
+          <div className="flex gap-5 lg:*:first-letter:first-line:font-bold lg:text-[20px]">
             <p>Show</p>
             <button className="text-[#2C3E50] bg-white border-0 py-1 px-2 focus:outline-none">
               16
             </button>
         
             <p>Sort by</p>
-            <button className="text-[#2C3E50] bg-white border-0 py-1 px-8 focus:outline-none">
+            <button className="text-[#2C3E50] bg-white border-0 py-1 lg:px-8 px-2 focus:outline-none">
               Default
             </button>
           </div>
         </div>
       
-
       {/* product samples */}
-      <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
+      <div className="md:grid lg:grid-cols-4 grid-cols-2 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
         {
           shopItems.map((data) => {
             const { id, img, title, subtitle, price } = data
