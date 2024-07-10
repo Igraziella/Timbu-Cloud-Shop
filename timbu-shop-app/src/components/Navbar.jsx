@@ -7,7 +7,7 @@ import { SlBasket } from "react-icons/sl";
     return (
     <header className="bg-[#3498DB] text-white md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap md:flex-row items-center flex-row justify-between">
-        <div className="font-bold text-3xl gap-1.5 ml-2 md:mb-0 flex flex-row items-center">
+        <div className="font-bold text-3xl gap-1.5 lg:ml-2 md:mb-0 flex flex-row items-center">
           <img src="velte-logo.png" alt="logo" />
           <h1 className="text-sm lg:text-3xl leading-relaxed">
             Velte Beauty
