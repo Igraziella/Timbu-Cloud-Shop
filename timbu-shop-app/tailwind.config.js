@@ -6,9 +6,6 @@ module.exports = {
   ],
   media: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      'serif': ['Montserrat', 'Roboto']
-    },
     extend: {},
   },
   variants: {},

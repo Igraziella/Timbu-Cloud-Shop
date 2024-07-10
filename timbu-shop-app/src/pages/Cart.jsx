@@ -64,7 +64,7 @@ const Cart = () => {
 
             <div>
               <Link to="/info">
-              <button type="button" className="rounded px-8 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold w-full">
+              <button type="button" className="flex justify-center items-center rounded px-8 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold">
                 Proceed to Checkout
               </button>
               </Link>

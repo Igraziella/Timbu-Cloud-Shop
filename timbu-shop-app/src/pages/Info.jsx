@@ -30,7 +30,7 @@ const Info = () => {
         </div>
 
         <div className="flex lg:flex-row flex-col font-normal gap-20 lg:px-10 p-5">
-					<div className="md:grid grid-rows-2 gap-10 lg:w-[70%] border bg-white rounded w-full">
+					<div className="md:grid grid-rows gap-10 lg:w-[70%] border bg-white rounded w-full">
             
             <div className="border">
               <form>
