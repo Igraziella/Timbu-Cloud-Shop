@@ -46,7 +46,7 @@ const Shop = () => {
                     <img src={img} className="w-full h-full" />
                   </div>
 
-                  <div className="text-[#2C3E50]">
+                  <div className="">
                     <h1 className="font-bold mt-2 ml-4">{title}</h1>
                     <p className='ml-4'>{subtitle}</p>
                     <p className='ml-4 mb-5 font-bold'>{price}

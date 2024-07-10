@@ -21,9 +21,9 @@ import { SlBasket } from "react-icons/sl";
         </div>
 
         <nav className="hidden lg:block font-normal md:mr-auto md:ml-auto md:py-1 md:pl-4 md:flex flex-wrap items-center justify-center text-base">
-          <Link to="/" className="mr-12 focus:font-bold active:font-bold">Home</Link>
+          <Link to="/" className="mr-10 focus:font-bold active:font-bold">Home</Link>
           
-          <Link to="/shop" className="mr-12 focus:font-bold active:font-bold"> Shop</Link>
+          <Link to="/shop" className="mr-10 focus:font-bold active:font-bold"> Shop</Link>
         </nav>
           <Hamburger toggleMenu={toggleMenu} menuOpen={menuOpen} />
 

@@ -9,7 +9,7 @@ const Cart = () => {
     <>
     <Navbar />
 
-    <div className="bg-[#FAF3EA]">
+    <div className="bg-[#FAF3EA] text-[#2C3E50]">
       <div>
         <img src="/shop-main-img.png" alt="cosmetic products" />
       </div>
