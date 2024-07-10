@@ -37,7 +37,7 @@ const Shop = () => {
         </div>
       
       {/* product samples */}
-      <div className="md:grid lg:grid-cols-4 grid-cols-2 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
+      <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
         {
           shopItems.map((data) => {
             const { id, img, title, subtitle, price } = data
