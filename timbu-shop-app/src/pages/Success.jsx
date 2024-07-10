@@ -8,16 +8,18 @@ const Success = () => {
 
     {/* payment success msg */}
     <div className="bg-[#F9F1E7]">
-      <div className="flex lg:flex-row flex-col font-normal gap-20 px-10">
-			  <div className="md:grid grid-rows-2 gap-10 w-[70%] border bg-white rounded">
-        
-        <p>Thank You For Your Order!</p>
-        <p>Print Receipt</p>
+      <div className="flex lg:flex-row flex-col font-normal py-20 lg:px-10 px-5">
+			  <div className="md:grid grid-rows gap-5 w-[100%] border bg-white rounded p-5">
+          <div className="flex justify-between text-[#3498DB]">
+            <p className="lg:*:text-[32px] font-medium">Thank You For Your Order!</p>
+            <p className="text-[14px] font-light">Print Receipt</p>
+          </div>
+
+          <div className="lg:text-[14-px] text-[12px] font-[300px] text-[#2C3E50] leading-7">
+            <p>Order #147258369 has been placed</p>
+            <p>you will receive an email confirmation shortly (lotsofmails@email.com )</p>
+          </div>        
         </div>
-
-        <p>Order #147258369 has been placed</p>
-        <p>you will receive an email confirmation shortly (lotsofmails@email.com )</p>
-
     </div>
     </div>
     <Footer />
