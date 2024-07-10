@@ -37,6 +37,7 @@ const Cart = () => {
               <p className="text-[#3498DB] font-bold">Shopping Cart</p>
               <p className="underline">Deselect all Items</p>
             </div>
+
           </div>
         
 

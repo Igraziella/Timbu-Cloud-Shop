@@ -39,7 +39,7 @@ const Product = () => {
             })
           }
         </div>
-        <div className="flex mt-4 justify-center text-[#3498DB] bg-white focus:outline-none text-lg">
+        <div className="flex mt-4 mb-2 justify-center text-[#3498DB] bg-white focus:outline-none text-lg">
             <Link to='/shop'>
               <button className='border border-[#3498DB] hover:bg-[#3498DB] hover:text-white w-48 py-3 text-base flex justify-center'>
                 Show More

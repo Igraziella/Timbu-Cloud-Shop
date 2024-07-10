@@ -26,7 +26,7 @@ const Payment = () => {
         </div>
 
         <div className="flex lg:flex-row flex-col font-normal gap-20 lg:px-10 px-5">
-					<div className="md:grid grid-rows gap-10 lg:w-[70%] bg-white rounded">
+					<div className="md:grid grid-rows gap-10 lg:w-[70%] bg-white rounded mb-4">
             
             <div className="border">
               <form>
