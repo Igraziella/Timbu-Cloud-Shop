@@ -24,7 +24,7 @@ const Hamburger = ({ toggleMenu, menuOpen }) => {
         </svg>
       </button>
       <div
-        className={`h-2/4 w-2/4 bg-white md:hidden fixed top-0 right-0 z-10 ${
+        className={`h-4/6 w-full bg-white md:hidden fixed top-0 right-0 z-10 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-all`}
       >
