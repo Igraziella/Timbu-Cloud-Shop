@@ -54,12 +54,20 @@ const Cart = () => {
             <p className="flex justify-center font-semibold leading-8">Order Summary</p>
             <hr />
             <div className="flex flex-col gap-2 mt-2">
-            <p>Items Total (2) <span>₦10,000.00</span></p>
-            <p>Discounts <span>-₦00.00</span></p>
-            <p>Subtotal <span>₦10,000.00</span></p>
-            <p>Shipping <span>₦1,000.00</span></p>
-            <hr />
-            <p>Total <span>₦11,100.00</span></p>
+              <p>Items Total (2) <span>₦10,000.00</span></p>
+              <p>Discounts <span>-₦00.00</span></p>
+              <p>Subtotal <span>₦10,000.00</span></p>
+              <p>Shipping <span>₦1,000.00</span></p>
+              <hr />
+              <p>Total <span>₦11,100.00</span></p>
+            </div>
+
+            <div>
+              <Link to="/info">
+              <button type="button" className="rounded px-8 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold w-full">
+                Proceed to Checkout
+              </button>
+              </Link>
             </div>          
           </div>
 
@@ -83,13 +91,9 @@ const Cart = () => {
         </div> 
 				</div>
         </div>
-
-          
-          
-          {/* </div> */}
-
       </div>
 
+      {/* recommended products */}
       <p className="flex justify-center lg:text-3xl font-medium text-black py-5">Recommended Products</p>
       <div className="lg:grid grid-cols-4 lg:gap-3 space-y-4 lg:space-y-0 p-5">
           {
