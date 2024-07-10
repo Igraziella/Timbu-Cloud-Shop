@@ -15,7 +15,7 @@ const Success = () => {
         <p>Print Receipt</p>
         </div>
 
-        <p>Order #147258369 has ben placed</p>
+        <p>Order #147258369 has been placed</p>
         <p>you will receive an email confirmation shortly (lotsofmails@email.com )</p>
 
     </div>

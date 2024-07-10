@@ -32,7 +32,7 @@ const MiniShop = () => {
         </div>
     </div>
 
-    <div className="md:grid grid-cols-4 gap-3 p-10">
+    <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
           {
             shopItems.map((data) => {
               const { id, img, title, subtitle, price } = data

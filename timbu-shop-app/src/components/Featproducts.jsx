@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Featproducts = () => {
   return (
-    <div className="container bg-[#FCF8F3] mx-auto lg:flex py-10 md:flex-row">
+    <div className="container bg-[#FCF8F3] mx-auto lg:flex lg:py-10 py-2 md:flex-row">
         <div className='lg:flex space-x-4 items-center text-center lg:px-20'>
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-left md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="font-extrabold mb-8 text-2xl text-[#3A3A3A]">

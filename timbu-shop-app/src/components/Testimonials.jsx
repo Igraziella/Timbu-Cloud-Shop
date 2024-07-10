@@ -3,15 +3,15 @@ import { testimonial } from '../utils/data';
 
 const Testimonials = () => {
   return (
-      <div className="pt-0 pb-10 mt-20 px-20 bg-[#FCF8F3]">
-        <div className="text-center font-bold pb-2 pt-2 text-4xl text-[#2C3E50]">
+      <div className="pt-0 pb-10 lg:mt-20 lg:px-20 p-5 text-cen bg-[#FCF8F3]">
+        <div className="text-center font-bold pb-2 pt-2 lg:text-4xl text-2xl text-[#2C3E50]">
           What Our Customers Say
         </div>
         <p className="text-center pb-2 pt-0 text-sm text-[#2C3E50]">
           Real reviews from our satisfied customers
         </p>
 
-        <div className="md:grid grid-cols-3 gap-3">
+        <div className="md:grid grid-cols-3 gap-3 space-y-4 lg:space-y-0">
           {
             testimonial.map((data) => {
               const { id, img, name, review, rating } = data

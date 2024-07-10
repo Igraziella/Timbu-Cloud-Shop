@@ -9,7 +9,7 @@ const Shop = () => {
       <Navbar />
 
       <div>
-        <img src="/shop-main-img.png" alt="cusmetic products" />
+        <img src="/shop-main-img.png" alt="cosmetic products" />
       </div>
 
       <div className="flex justify-between p-5 bg-[#2C3E50] text-white">
@@ -35,7 +35,7 @@ const Shop = () => {
       </div>
 
 
-      <div className="md:grid grid-cols-4 gap-3 p-10">
+      <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
         {
           shopItems.map((data) => {
             const { id, img, title, subtitle, price } = data
