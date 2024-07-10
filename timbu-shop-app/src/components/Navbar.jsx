@@ -1,8 +1,14 @@
-import React from "react"
+import React, { useState } from "react";
 import { Link } from "react-router-dom"
+import Hamburger from "./Hamburger";
 import { SlBasket } from "react-icons/sl";
 
  const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
     
     return (
     <header className="bg-[#3498DB] text-white md:sticky top-0 z-10">
@@ -19,8 +25,10 @@ import { SlBasket } from "react-icons/sl";
           
           <Link to="/shop" className="mr-12 focus:font-bold active:font-bold"> Shop</Link>
         </nav>
+          <Hamburger toggleMenu={toggleMenu} menuOpen={menuOpen} />
+
         
-        <div className="flex space-x-8 p-12">
+        <div className="lg:flex space-x-8 p-12 hidden">
           <Link to="/cart">
             <SlBasket />
           </Link>

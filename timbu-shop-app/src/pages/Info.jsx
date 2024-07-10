@@ -13,7 +13,7 @@ const Info = () => {
         <img src="/shop-main-img.png" alt="cosmetic products" />
       </div>
 
-      <div className="flex flex-col m-10">
+      <div className="flex flex-col lg:m-10 m-5">
           <div>
             <ul className="flex gap-5">
                 <Link to="/cart">
