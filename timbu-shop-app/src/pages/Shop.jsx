@@ -8,33 +8,37 @@ const Shop = () => {
     <>
       <Navbar />
 
+      {/* background image */}
       <div>
         <img src="/shop-main-img.png" alt="cosmetic products" />
       </div>
 
-      <div className="flex justify-between p-5 bg-[#2C3E50] text-white">
-        <div className="flex">
-          <p>Filter</p>
+      {/* filter section */}
+      <div className="flex justify-between p-5 bg-[#2C3E50] text-white px-10">
+        <div className="flex flew-col gap-3 font-bold">
+          <img src="/filter.png" alt="" /><p>Filter</p>
           <hr />
-          <p>Showing 1–16 of 32 results</p>
+          <img src="/grid.png" alt="" />
+          <img src="/bi_view-list.png" alt="" />
+          <p className="font-normal text-base">Showing 1–16 of 32 results</p>
         </div>
-        <div>
-          <div>
+
+        
+          <div className="flex gap-5 font-bold text-[20px]">
             <p>Show</p>
-            <button className="text-[#2C3E50] bg-white border-0 py-3 px-3 focus:outline-none">
+            <button className="text-[#2C3E50] bg-white border-0 py-1 px-2 focus:outline-none">
               16
             </button>
-          </div>
-          <div className="inline-flex text-sky-950 bg-white border py-2 px-8 focus:outline-none">
+        
             <p>Sort by</p>
-            <button>
+            <button className="text-[#2C3E50] bg-white border-0 py-1 px-8 focus:outline-none">
               Default
             </button>
           </div>
         </div>
-      </div>
+      
 
-
+      {/* product samples */}
       <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
         {
           shopItems.map((data) => {
