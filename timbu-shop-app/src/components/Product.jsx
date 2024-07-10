@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
-      <div className=" relative py-20 lg:px-20 px-10">
+      <div className="relative lg:py-20 lg:px-20 px-5">
         <div className="text-center font-bold pb-2 pt-2 text-2xl text-[#2C3E50]">
           Our Products
         </div>
