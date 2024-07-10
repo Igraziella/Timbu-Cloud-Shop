@@ -20,7 +20,7 @@ const Cart = () => {
                 <Link to="/cart">
                   <li className="text-[#3498DB] font-semibold">Cart</li>
                 </Link>
-                <Link to="/cart">
+                <Link to="/info">
                   <li>Information</li>
                 </Link>
                 <Link to="/payment">
@@ -35,7 +35,7 @@ const Cart = () => {
             
             <div className="m-5 space-y-4">
               <p className="text-[#3498DB] font-bold">Shopping Cart</p>
-              <p>Deselect all Items</p>
+              <p className="underline">Deselect all Items</p>
             </div>
           </div>
         </div>
@@ -85,7 +85,8 @@ const Cart = () => {
 				</div>
       </div>
 
-      <div className="lg:grid grid-cols-4 lg:gap-3 space-y-4 lg:space-y-0 p-10">
+      <p className="flex justify-center lg:text-3xl font-medium text-black py-5">Recommended Products</p>
+      <div className="lg:grid grid-cols-4 lg:gap-3 space-y-4 lg:space-y-0 p-5">
           {
             recommend.map((data) => {
               const { id, img, title, subtitle, price } = data
