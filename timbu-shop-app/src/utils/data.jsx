@@ -277,3 +277,118 @@ export const recommend = [
         price: "₦ 7,000.00",
     }
 ]
+
+export const miniProduct = [
+    {
+        id: 1,
+        img: "/mini-1.png",
+        title: "Heat Hair Spray",
+        subtitle: "Hair Care",
+        price: "₦ 2,450.00",
+    },
+    {
+        id: 2,
+        img: "/mini-2.png",
+        title: "Cellulite Cream",
+        subtitle: "Bath & Body",
+        price: "₦ 3,500.00",
+    },
+    {
+        id: 3,
+        img: "/mini-3.png",
+        title: "Hand Cream",
+        subtitle: "Bath & Body",
+        price: "₦ 5,000.00",
+    },
+    {
+        id: 4,
+        img: "/mini-4.png",
+        title: "Sun Screen",
+        subtitle: "Bath & Body",
+        price: "₦ 2,450.00",
+    },
+    {
+        id: 5,
+        img: "/mini-5.png",
+        title: "Face Scrub",
+        subtitle: "Hair Care",
+        price: "₦ 2,450.00",
+    },
+    {
+        id: 6,
+        img: "/mini-6.png",
+        title: "Herbal Hair Oil",
+        subtitle: "Hair Care",
+        price: "₦ 4,500.00",
+    },
+    {
+        id: 7,
+        img: "/mini-7.png",
+        title: "Lip Balm",
+        subtitle: "Face & Lip Care",
+        price: "₦ 1,000.00",
+    },
+    {
+        id: 8,
+        img: "/mini-8.png",
+        title: "Face Mask",
+        subtitle: "Face & Lip",
+        price: "₦ 4,000.00",
+    },
+    {
+        id: 9,
+        img: "/mini-9.png",
+        title: "Under Eye Cream",
+        subtitle: "Face & Lip Care",
+        price: "₦ 2,450.00",
+    },
+    {
+        id: 10,
+        img: "/mini-10.png",
+        title: "Hair Growth Tonic",
+        subtitle: "Hair Care",
+        price: "₦ 3,450.00",
+    },
+    {
+        id: 11,
+        img: "/mini-11.png",
+        title: "Hand Wash",
+        subtitle: "Bath & Body",
+        price: "₦ 5,000.00",
+    },
+    {
+        id: 12,
+        img: "/mini-12.png",
+        title: "Body Butter",
+        subtitle: "Bath & Body",
+        price: "₦ 4,000.00",
+    },
+    {
+        id: 13,
+        img: "/mini-13.png",
+        title: "Lip Mask",
+        subtitle: "Face & Lip Care",
+        price: "₦ 2,450.00",
+    },
+    {
+        id: 14,
+        img: "/mini-14.png",
+        title: "Nude Lipgloss",
+        subtitle: "Face & Lip Care",
+        price: "₦ 2,450.00",
+    },
+    {
+        id: 15,
+        img: "/mini-15.png",
+        title: "Body Glitter",
+        subtitle: "Bath & Body",
+        price: "₦ 10,000.00",
+    },
+    {
+        id: 16,
+        img: "/mini-16.png",
+        title: "Silver Lining Lipgloss",
+        subtitle: "Face & Lip Care",
+        price: "₦ 4,000.00",
+    }
+]

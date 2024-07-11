@@ -42,11 +42,21 @@ const Cart = () => {
         
 
         {/* <div className="flex lg:flex-row flex-col font-normal gap-20 px-10 mt-5"> */}
-					<div className="lg:w-[70%] border bg-white rounded p-5">
+					<div className="lg:w-[70%] border bg-white rounded lg:p-5">
             
-            <div>
-              Shopping Cart
-              <p>Deselect all Items</p>
+            <div className="flex justify-evenly border border-black font-semibold">
+              <p>Product</p>
+              <p>Name Product</p>
+              <p>Quantity</p>
+              <p>Price</p>
+            </div>
+            <div className="border border-black p-10">
+              <img src="/shop-img10.png" alt="" />
+            </div>
+
+            <div className="flex border border-black">
+                <p>Subtotal (1 items)</p>
+                <p>N 10,000.00</p>
             </div>
           </div>
 

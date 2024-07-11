@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { shopItems } from "../utils/data";
+import { miniProduct } from "../utils/data";
 import { Link } from "react-router-dom";
 
 const MiniShop = () => {
@@ -38,7 +38,7 @@ const MiniShop = () => {
 
     <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
           {
-            shopItems.map((data) => {
+            miniProduct.map((data) => {
               const { id, img, title, subtitle, price } = data
               return (
                 <div key={id} className="md:grid gap-5 rounded-md shadow-md border bg-[#ECF0F1]">
