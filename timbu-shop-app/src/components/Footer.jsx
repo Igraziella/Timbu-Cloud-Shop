@@ -50,8 +50,7 @@ const Footer = () => {
 			<PiTiktokLogo />
 		</div>
 
-		<hr />
-		<p className='pt-2'>2024 Velte Beauty. All right reserved</p>
+		<p className='pt-3 border-t'>2024 Velte Beauty. All right reserved</p>
 	</div>
 	</>
   )
