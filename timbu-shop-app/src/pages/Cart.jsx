@@ -88,7 +88,7 @@ const Cart = () => {
 
              <div>
               <Link to="/info">
-              <button type="button" className="flex justify-center items-center rounded lg:px-8 px-2 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold">
+              <button type="button" className="flex justify-center items-center rounded px-8 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold">
                 Proceed to Checkout
               </button>
               </Link>
@@ -107,13 +107,13 @@ const Cart = () => {
           </div>   
         </div>
 
-        <div className="bg-white mt-4 p-4 rounded">
+        <div className="bg-white mt-4 mb-4 p-4 rounded">
           <div className="flex gap-3">
             <img src="/protect-icon.png" alt="" />
            <p className="text-[#2ECC71]">Buyer Protection</p>
           </div>
            <p className="text-[#011432] font-normal text-sm mt-2">Get full refund if the item is not as described or
-            <br />if is not delivered</p>
+            if is not delivered</p>
         </div> 
 				</div>
         </div>
