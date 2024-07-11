@@ -42,7 +42,7 @@ const Payment = () => {
                 <p className="text-[#2C3E50] font-bold mx-8">Shipping method</p>
         
                 <div className="m-4 p-3 leading-7 border rounded ">
-                  <div className="flex justify-between mx-4 border-b hover:text-[#3498DB]">
+                  <div className="flex justify-between mx-3 border-b hover:text-[#3498DB]">
                     <div>
                       <label htmlFor="radio"></label>
                       <input type="radio" /><span className="m-2 text-base">Free Shipping</span>
@@ -50,15 +50,15 @@ const Payment = () => {
                       <p>Free</p>
                   </div>
 
-                <div className="flex justify-between border-b m-4 hover:text-[#3498DB]">
+                <div className="flex justify-between border-b m-3 hover:text-[#3498DB]">
                   <div>
                     <label htmlFor="radio"></label>
                     <input type="radio" /><span className="m-2 text-base ">Regular Shipping (7 days)</span>
                   </div>
-                  <p>₦1000,00</p>
+                  <p>₦1,000.00</p>
                 </div>
 
-                <div className="flex justify-between m-4 hover:text-[#3498DB] ">
+                <div className="flex justify-between ml-3 hover:text-[#3498DB] ">
                   <div>
                     <label htmlFor="radio"></label>
                     <input type="radio" /><span className="m-2 text-base">Express Shipping (3 days)</span>
@@ -68,9 +68,20 @@ const Payment = () => {
               </div>
 
               <div className="relative leading-9 m-6 p-2 border">
-                  <p className="border-b">Contact</p>
-                  <p className="border-b">Ship to </p>
+                  <div className="flex gap-10 border-b mx-3">
+                    <p>Contact</p>
+                    <p className="text-[#D9D9D9]">09123456789</p>
+                  </div>
+
+                  <div className="flex gap-10 border-b mx-3">
+                  <p>Ship to </p>
+                  <p className="text-[#D9D9D9]">123, Bitmap street, College Road</p>
+                  </div>
+                  
+                  <div className="flex gap-10 border-b mx-3">
                   <p>Method</p>
+                  <p className="text-[#D9D9D9]">Regular Shipping </p>
+                  </div>
               </div>
 
                 <p className="text-[#2C3E50] font-bold p-4">Payment</p>
