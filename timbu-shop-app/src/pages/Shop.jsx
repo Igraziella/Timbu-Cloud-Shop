@@ -54,7 +54,7 @@ const Shop = () => {
                     <p className='ml-4 mb-5 font-bold'>{price}
                       <span className='flex justify-end px-3'>
                         <Link to="/cart">
-                          <button className='font-semibold text-white bg-[#3498DB] hover:bg-[#add2eb] active:bg-[#609eca]  border border-black shadow-sm rounded p-3 w-32 justify-center focus:outline-none'>Add to Cart</button>
+                          <button className='font-semibold text-white bg-[#3498DB] hover:bg-[#add2eb] active:bg-[#609eca] border border-black shadow-sm rounded p-3 w-32 justify-center focus:outline-none'>Add to Cart</button>
                         </Link>
                       </span>
                     </p>
@@ -68,10 +68,10 @@ const Shop = () => {
       </div>
 
       <div className="flex justify-center space-x-3 mb-8">
-        <div className="text-white active:bg-sky-500 bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
+        <div className="text-white active:bg-s[#3498DB] bg-[#3498DB] border-0 py-3 px-6 focus:outline-none rounded">
           <button>1</button>
         </div>
-        <div className="text-sky-900 bg-[#D9D9D9] hover:bg-sky-500 border-0 py-3 px-6 focus:outline-none rounded">
+        <div className="text-sky-900 bg-[#D9D9D9] hover:bg-[#3498DB] border-0 py-3 px-6 focus:outline-none rounded">
           <Link to='/minishop'>
             <button>2</button>
           </Link>

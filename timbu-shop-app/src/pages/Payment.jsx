@@ -129,7 +129,7 @@ const Payment = () => {
 
           <div>
           <Link to="/success">
-            <button id="submit-btn" type="button" className="border-2 border-black rounded px-8 py-2 bg-[#3498DB] text-white font-bold w-full">
+            <button id="submit-btn" type="button" className="border-2 border-black rounded px-8 py-2 bg-[#3498DB]  hover:bg-[#add2eb] active:bg-[#609eca] text-white font-bold w-full">
               Pay Now
             </button>
           </Link>

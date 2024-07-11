@@ -36,16 +36,16 @@ const Info = () => {
               <form>
                 <h2 className="flex justify-center text-[#2C3E50] font-bold py-2">Contact Information</h2>
 
-        {/* form content */}
-        <div className="relative m-4 p-1 border">
-          <label htmlFor="email"></label>
-          <input type="text" id="email" placeholder="Email" />
-        </div>
+                {/* form content */}
+                <div className="relative m-4 p-1 border">
+                  <label htmlFor="email"></label>
+                  <input type="text" id="email" placeholder="Email" />
+                </div>
 
-        <div className="m-4">
-          <label htmlFor="checkbox"></label>
-          <input type="checkbox" id="checkbox"/> <span>Email me with news and offers</span>
-        </div>
+                <div className="m-4">
+                  <label htmlFor="checkbox"></label>
+                  <input type="checkbox" id="checkbox"/> <span>Email me with news and offers</span>
+                </div>
 
         <p className="text-[#2C3E50] text-base m-4">Delivery Method</p>
         <div className="flex flex-row justify-center gap-4">
@@ -120,7 +120,7 @@ const Info = () => {
           </Link>
         <div>
           <Link to="/payment">
-            <button id="submit-btn" type="button" className="border rounded px-8 py-2 bg-[#3498DB] text-white font-bold w-full">
+            <button id="submit-btn" type="button" className="border-2 rounded px-8 py-2 border-black bg-[#3498DB] hover:bg-[#add2eb] active:bg-[#609eca] text-white font-bold w-full">
               Continue to Shipping
             </button>
           </Link>
