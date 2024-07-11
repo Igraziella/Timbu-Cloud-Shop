@@ -78,31 +78,32 @@ const Shop = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-between p-10 bg-[#FAF3EA]">
-        <div className="flex gap-2">
+      <div className="lg:flex lg:flex-row justify-evenly grid grid-cols-2 gap-10 p-5 bg-[#FAF3EA]">
+        
+        <div className="gap-2">
           <img src="/trophy.png" alt="" />
-          <h3 className="text-[#2C3E50]">High Quality</h3>
-          <p className="text-[#898989]">crafted from top materials</p>
+          <h3 className="text-[#2C3E50] lg:text-[24px] font-bold">High Quality</h3>
+          <p className="text-[#898989] lg:text-[20px] font-bold">crafted from top materials</p>
         </div>
 
-        <div className="flex">
+        <div className="">
           <img src="/warranty.png" alt="" />
-          <h3 className="text-[#2C3E50]">Warranty Protection</h3>
-          <p className="text-[#898989]">Over 2 years</p>
+          <h3 className="text-[#2C3E50] lg:text-[24px] font-bold">Warranty Protection</h3>
+          <p className="text-[#898989] lg:text-[20px] font-bold">Over 2 years</p>
         </div>
 
-        <div className="flex">
+        <div className="">
           <img src="/shipping.png" alt="" />
-          <h3 className="text-[#2C3E50]">Free Shipping</h3>
-          <p className="text-[#898989]">Order over ₦20,000 </p>
+          <h3 className="text-[#2C3E50] lg:text-[24px] font-bold">Free Shipping</h3>
+          <p className="text-[#898989] lg:text-[20px] font-bold">Order over ₦20,000 </p>
         </div>
 
-        <div className="flex">
+        <div className="">
           <img src="/customer-support.png" alt="" />
-          <h3 className="text-[#2C3E50]">24/7 Support</h3>
-          <p className="text-[#898989]">Dedicated support</p>
+          <h3 className="text-[#2C3E50] lg:text-[24px] font-bold">24/7 Support</h3>
+          <p className="text-[#898989] lg:text-[20px] font-bold">Dedicated support</p>
         </div>
-      </div>
+        </div>
 
       <Footer />
     </>

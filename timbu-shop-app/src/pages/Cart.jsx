@@ -44,7 +44,7 @@ const Cart = () => {
         {/* <div className="flex lg:flex-row flex-col font-normal gap-20 px-10 mt-5"> */}
 					<div className="lg:w-[70%] border bg-white rounded lg:p-5">
             
-            <div className="flex justify-evenly border border-black font-semibold">
+            <div className="lg:flex justify-evenly border border-black lg:font-semibold">
               <p>Product</p>
               <p>Name Product</p>
               <p>Quantity</p>
@@ -54,9 +54,9 @@ const Cart = () => {
               <img src="/shop-img10.png" alt="" />
             </div>
 
-            <div className="flex border border-black">
+            <div className="flex justify-around border border-black text-sm">
                 <p>Subtotal (1 items)</p>
-                <p>N 10,000.00</p>
+                <p className="font-bold">N 10,000.00</p>
             </div>
           </div>
 
@@ -120,7 +120,7 @@ const Cart = () => {
       </div>
 
       {/* recommended products */}
-      <p className="flex justify-center lg:text-3xl font-medium text-black py-5">Recommended Products</p>
+      <p className="flex justify-center lg:text-3xl font-semibold text-black py-5">Recommended Products</p>
       <div className="lg:grid grid-cols-4 lg:gap-3 space-y-4 lg:space-y-0 p-5">
           {
             recommend.map((data) => {
