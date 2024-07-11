@@ -100,8 +100,9 @@ const Cart = () => {
           <div className="p-4 mx-10">
             <p>Payment methods</p>
             <div className="flex">
-            <img src="/visa.png" alt="visa card" />
-            <img src="/mastercard.png" alt="master card" />
+              <img src="/vector.png" alt="merchant img" />
+              <img src="/visa.png" alt="visa card" />
+              <img src="/mastercard.png" alt="master card" />
             </div>
           </div>   
         </div>
