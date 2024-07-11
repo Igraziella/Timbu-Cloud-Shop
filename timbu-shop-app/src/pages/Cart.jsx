@@ -60,7 +60,7 @@ const Cart = () => {
             </div>
           </div>
 
-          <div className="lg:w-[30%] p-5">
+          <div className="lg:w-[30%] lg:p-5">
           <div className="bg-white rounded p-5">
             <p className="flex justify-center font-semibold leading-8 border-b">Order Summary</p>
             <div className="flex flex-row gap-10 mt-2 leading-9">
@@ -88,7 +88,7 @@ const Cart = () => {
 
              <div>
               <Link to="/info">
-              <button type="button" className="flex justify-center items-center rounded px-8 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold">
+              <button type="button" className="flex justify-center items-center rounded lg:px-8 px-2 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold">
                 Proceed to Checkout
               </button>
               </Link>
