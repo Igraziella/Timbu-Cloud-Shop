@@ -37,7 +37,7 @@ const Shop = () => {
         </div>
       
       {/* product samples */}
-      <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5">
+      <div className="md:grid grid-cols-4 gap-3 space-y-4 lg:space-y-4 lg:p-10 p-5 text-[#2C3E50]">
         {
           shopItems.map((data) => {
             const { id, img, title, subtitle, price } = data
@@ -71,7 +71,7 @@ const Shop = () => {
         <div className="text-white active:bg-s[#3498DB] bg-[#3498DB] border-0 py-3 px-6 focus:outline-none rounded">
           <button>1</button>
         </div>
-        <div className="text-sky-900 bg-[#D9D9D9] hover:bg-[#3498DB] border-0 py-3 px-6 focus:outline-none rounded">
+        <div className="text-[[#2C3E50]] bg-[#D9D9D9] hover:bg-[#3498DB] border-0 py-3 px-6 focus:outline-none rounded">
           <Link to='/minishop'>
             <button>2</button>
           </Link>
