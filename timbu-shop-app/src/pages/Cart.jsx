@@ -61,26 +61,40 @@ const Cart = () => {
           </div>
 
           <div className="lg:w-[30%] p-5">
-          <div className="bg-white rounded p-4">
-            <p className="flex justify-center font-semibold leading-8">Order Summary</p>
-            <hr />
-            <div className="flex flex-col gap-2 mt-2">
-              <p>Items Total (2) <span>₦10,000.00</span></p>
-              <p>Discounts <span>-₦00.00</span></p>
-              <p>Subtotal <span>₦10,000.00</span></p>
-              <p>Shipping <span>₦1,000.00</span></p>
-              <hr />
-              <p>Total <span>₦11,100.00</span></p>
+          <div className="bg-white rounded p-5">
+            <p className="flex justify-center font-semibold leading-8 border-b">Order Summary</p>
+            <div className="flex flex-row gap-10 mt-2 leading-9">
+            <div>
+            <p className="font-bold">Items Total (2) </p>
+            <p className="font-normal text-[14px]">Discounts</p>
+            <p className="font-semibold">Subtotal</p>
+            <p className="font-semibold">Shipping</p>
+            <p className="font-light text-[14px]">Duties & Taxes</p>
+            </div>
+            <div>
+              <p className="font-bold">₦10,000.00</p>
+              <p className="font-normal text-[14px]">-₦00.00</p>
+              <p className="font-semibold">₦10,000.00</p>
+              <p className="font-semibold">₦1,000.00</p>
+              <p className="font-light text-[14px]">₦100.00</p>
             </div>
 
-            <div>
+            </div>
+
+            <div className="flex justify-center gap-10 lg:space-x-6 font-bold border-t">
+            <p>Total</p>
+            <p>₦11,100.00</p>
+            </div>
+
+             <div>
               <Link to="/info">
               <button type="button" className="flex justify-center items-center rounded px-8 py-2 mt-4 bg-[#3498DB] hover:bg-[#5da9d9] active:bg-[#5bacde] text-white border-black border-2 font-bold">
                 Proceed to Checkout
               </button>
               </Link>
             </div>          
-          </div>
+          </div>        
+          
 
           <div className="bg-white mt-4 rounded">
           <div className="p-4 mx-10">

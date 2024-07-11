@@ -41,30 +41,35 @@ const Payment = () => {
 
                 <p className="text-[#2C3E50] font-bold mx-8">Shipping method</p>
         
-                <div className="m-4 p-3 leading-10 border rounded ">
-                <div>
-                  <label htmlFor="radio"></label>
-                  <input type="radio" /><span className="m-2 text-base hover:text-[#3498DB]">Free Shipping</span>
-                  <hr />
+                <div className="m-4 p-3 leading-7 border rounded ">
+                  <div className="flex justify-between mx-4 border-b hover:text-[#3498DB]">
+                    <div>
+                      <label htmlFor="radio"></label>
+                      <input type="radio" /><span className="m-2 text-base">Free Shipping</span>
+                    </div>
+                      <p>Free</p>
+                  </div>
+
+                <div className="flex justify-between border-b m-4 hover:text-[#3498DB]">
+                  <div>
+                    <label htmlFor="radio"></label>
+                    <input type="radio" /><span className="m-2 text-base ">Regular Shipping (7 days)</span>
+                  </div>
+                  <p>₦1000,00</p>
                 </div>
 
-                <div>
-                  <label htmlFor="radio"></label>
-                  <input type="radio" /><span className="m-2 text-base hover:text-[#3498DB]">Regular Shipping (7 days)</span>
-                  <hr />
-                </div>
-
-                <div>
-                  <label htmlFor="radio"></label>
-                  <input type="radio" /><span className="m-2 text-base hover:text-[#3498DB]">Regular Shipping (7 days)</span>
+                <div className="flex justify-between m-4 hover:text-[#3498DB] ">
+                  <div>
+                    <label htmlFor="radio"></label>
+                    <input type="radio" /><span className="m-2 text-base">Express Shipping (3 days)</span>
+                  </div>
+                  <p>₦3,000.00</p>
                 </div>
               </div>
 
               <div className="relative leading-9 m-6 p-2 border">
-                  <p>Contact</p>
-                  <hr />
-                  <p>Ship to </p>
-                  <hr />
+                  <p className="border-b">Contact</p>
+                  <p className="border-b">Ship to </p>
                   <p>Method</p>
               </div>
 
@@ -125,17 +130,30 @@ const Payment = () => {
         </div>
 
 				<div className="lg:w-[30%]">
-          <div className="bg-white rounded p-4">
-            <p className="flex justify-center font-semibold leading-8">Order Summary</p>
-            <hr />
-            <div className="flex flex-col gap-2 mt-2">
-            <p>Items Total (2) <span>₦10,000.00</span></p>
-            <p>Discounts <span>-₦00.00</span></p>
-            <p>Subtotal <span>₦10,000.00</span></p>
-            <p>Shipping <span>₦1,000.00</span></p>
-            <hr />
-            <p>Total <span>₦11,100.00</span></p>
-            </div>          
+          <div className="bg-white rounded p-5">
+            <p className="flex justify-center font-semibold leading-8 border-b">Order Summary</p>
+            <div className="flex flex-row gap-10 mt-2 leading-9">
+            <div>
+            <p className="font-bold">Items Total (2) </p>
+            <p className="font-normal text-[14px]">Discounts</p>
+            <p className="font-semibold">Subtotal</p>
+            <p className="font-semibold">Shipping</p>
+            <p className="font-light text-[14px]">Duties & Taxes</p>
+            </div>
+            <div>
+              <p className="font-bold">₦10,000.00</p>
+              <p className="font-normal text-[14px]">-₦00.00</p>
+              <p className="font-semibold">₦10,000.00</p>
+              <p className="font-semibold">₦1,000.00</p>
+              <p className="font-light text-[14px]">₦100.00</p>
+            </div>
+
+            </div>
+
+            <div className="flex justify-center gap-10 lg:space-x-6 font-bold border-t">
+            <p>Total</p>
+            <p>₦11,100.00</p>
+            </div>        
           </div>
 
           <div className="bg-white mt-4 rounded">
